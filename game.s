@@ -1,4 +1,3 @@
-
 // AUTHOR: Aimee Darlene Izere
 // GAME DESCRIPTION: Move right, left, up or down to avoid cars and collect a maximum of 3 power-ups to survive longer
 // 3 ADVANCED FEATURES:
