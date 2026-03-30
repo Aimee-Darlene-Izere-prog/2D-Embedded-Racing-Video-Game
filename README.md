@@ -1,7 +1,11 @@
 2D Embedded Racing Video Game Project 
+
 AUTHOR: Aimee Darlene Izere
+
 TECH: LANGUAGE: ARM Assembly Programming, PROGRAMMING SOFTWARE: CPUlator, ARMv7 Architecture, Nios II DE1 SoC System 
+
 GAME DESCRIPTION: Move right, left, up or down to avoid cars and collect a maximum of 3 power-ups to survive longer
+
 3 ADVANCED FEATURES:
 						1. Gravity or Other Forces : pushing buttons 1 and 2 simultaneously allows the player to jump over cars
 						2. PowerUps: A player can get a max of 3 powerups throughout the game
