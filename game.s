@@ -1,7 +1,5 @@
-							   // Assignment 5: Game
 
-// NAME: Aimee Darlene Izere
-// NETID: azy1770
+// AUTHOR: Aimee Darlene Izere
 // GAME DESCRIPTION: Move right, left, up or down to avoid cars and collect a maximum of 3 power-ups to survive longer
 // 3 ADVANCED FEATURES:
 						// 1. Gravity or Other Forces : pushing buttons 1 and 2 simultaneously allows the player to jump over cars
@@ -18,7 +16,6 @@
 											// NOTE : To stop the 5player from moving, release the push buttons
 
 //LINK TO THE YOUTUBE VIDEO DEMO : https://youtu.be/Xd6KY8bRDVA
-
 
 .data
 // These are addresses for the pixel buffer and text buffer
@@ -1056,17 +1053,17 @@ Main_loop:
 	ldr r0, =Power_Ups 
 	bl PowerUpCollision
 	
-	ldr r0, =LeftRoadCarsArray	// Draw cars
+	ldr r0, =LeftRoadCarsArray	// Draw left cars
 	ldr r1, =CarsArraysSize
 	ldr r1, [r1]
 	bl DrawSprites
 	
-	ldr r0, =MiddleRoadCarsArray	// Draw cars
+	ldr r0, =MiddleRoadCarsArray	// Draw middle cars
 	ldr r1, =CarsArraysSize
 	ldr r1, [r1]
 	bl DrawSprites
 	
-	ldr r0, =RightRoadCarsArray	// Draw cars
+	ldr r0, =RightRoadCarsArray	// Draw right cars
 	ldr r1, =CarsArraysSize
 	ldr r1, [r1]
 	bl DrawSprites
@@ -1076,17 +1073,17 @@ Main_loop:
 	ldr r1, [r1]
 	bl DrawSprites
 	
-	ldr r0, =Power_Ups 	// Draw the player: motorcycle 
+	ldr r0, =Power_Ups 	// Draw power ups
 	ldr r1, =PowerUpsArraySize
 	ldr r1, [r1]
 	bl DrawSprites
 	
-	ldr r0, =Road_Lines1	// Draw the player: motorcycle 
+	ldr r0, =Road_Lines1	// Draw white road lines 1
 	ldr r1, =CarsArraysSize
 	ldr r1, [r1]
 	bl DrawSprites
 	
-	ldr r0, =Road_Lines2	// Draw the player: motorcycle 
+	ldr r0, =Road_Lines2	// Draw white road lines 2
 	ldr r1, =CarsArraysSize
 	ldr r1, [r1]
 	bl DrawSprites
